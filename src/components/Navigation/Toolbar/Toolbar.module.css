@@ -1,0 +1,43 @@
+.Toolbar {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: steelblue;
+    /*background-color: #3171bf;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px;
+    box-sizing: border-box;
+    z-index: 300;
+
+    -webkit-box-shadow: -4px -10px 26px 15px rgba(0,0,0,0.27);
+    -moz-box-shadow: -4px -10px 26px 15px rgba(0,0,0,0.27);
+    box-shadow: -4px -10px 26px 15px rgba(0,0,0,0.27);
+}
+
+.Toolbar nav {
+    height: 80%;
+}
+
+.InfoBox {
+    height: 100%;
+    margin-left: 20px;
+}
+
+.LogoInfoBox{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+@media (min-width: 1200px) {
+    .Toolbar {
+        display: none;
+    }
+}

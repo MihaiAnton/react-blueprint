@@ -1,0 +1,45 @@
+.SideNavigation {
+    position: fixed;
+    left: 0;
+    width: 200px;
+    max-width: 70%;
+    height: 100%;
+    top: 0;
+    z-index: 200;
+    background-color: steelblue;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.LogoBox {
+    margin-bottom: 40px;
+}
+
+.InfoBox {
+    /*background-color: #E0E0E0;*/
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.SocialMediaIconsBox {
+    /*background-color: #61dafb;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+    .SideNavigation {
+        display: none;
+    }
+}
