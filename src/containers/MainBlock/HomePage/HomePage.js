@@ -7,8 +7,13 @@ import Title from "../BlogPage/Elements/Title/Title";
 import Subtitle from "../BlogPage/Elements/Subtitle/Subtitle";
 import SectionBreak from "../BlogPage/Elements/SectionBreak/SectionBreak";
 import Image from "../BlogPage/Elements/Image/Image";
+import {WEBSITE_NAME} from "../../../constants";
 
 class HomePage extends Component {
+
+    componentDidMount() {
+        document.title = 'Home | ' + WEBSITE_NAME;
+    }
 
 
     render() {

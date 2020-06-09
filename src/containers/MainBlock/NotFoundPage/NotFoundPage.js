@@ -1,12 +1,18 @@
 import React, {Component} from "react";
 
-import classes from "../../containers/MainBlock/NotFoundPage/NotFoundPage.module.css"
-import Subtitle from "../../containers/MainBlock/BlogPage/Elements/Subtitle/Subtitle";
-import Image from "../../containers/MainBlock/BlogPage/Elements/Image/Image";
+import classes from "./NotFoundPage.module.css"
+import Subtitle from "../BlogPage/Elements/Subtitle/Subtitle";
+import Image from "../BlogPage/Elements/Image/Image";
 
-import sunset from "../../assets/images/sunset.jpg"
+import sunset from "../../../assets/images/sunset.jpg"
+import {WEBSITE_NAME} from "../../../constants";
 
 class NotFoundPage extends Component {
+
+    componentDidMount() {
+        document.title = 'Not found';
+    }
+
 
 
     render() {

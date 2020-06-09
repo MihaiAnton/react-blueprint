@@ -1,8 +1,14 @@
 import React, {Component} from "react";
 import classes from "./DocsPage.module.css"
 import configDoc from "./configDoc";
+import {WEBSITE_NAME} from "../../../constants";
 
 class DocsPage extends Component {
+
+    componentDidMount() {
+        document.title = 'Docs | ' + WEBSITE_NAME;
+    }
+
 
 
     render() {
