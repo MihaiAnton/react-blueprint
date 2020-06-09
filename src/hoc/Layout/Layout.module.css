@@ -1,0 +1,36 @@
+.ContentBox {
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: calc(100vh - 92px - 24px);      /* Change this when changing the height of the footer or the height of the navigation bar
+                                                    100vh - <navigation height>px - <footer height>px */
+
+    margin-top: 92px;  /* This should be the height of the navigation bar */
+
+    overflow: hidden;
+
+    justify-content: center;
+
+}
+
+.FooterBox {
+    height: 24px;          /* For modifying the footer height, modify this line and input the same
+                            size in the right side of the division in the min-height attribute of .ContentBox   */
+}
+
+.LayoutBox {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .ContentBox {
+        width: calc(100% - 200px - 0px);        /* Subtract the number of pixels used in the margin-left argument below */
+        min-height: calc(100vh - 0px - 24px);
+        margin-top: 0;
+        margin-left: 200px;     /* This should be set to the width of the sidebar*/
+    }
+}
+

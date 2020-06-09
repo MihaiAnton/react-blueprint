@@ -1,0 +1,33 @@
+.Footer {
+
+
+    /*flex: 0  0 auto;*/
+    /*position: fixed;*/
+    bottom: 0;
+
+
+
+    background-color: lightgray;
+    opacity: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+    z-index: 300;
+}
+
+.Footer p{
+    color: #434644;
+}
+
+.Footer img{
+    height: 20px;
+}
+
+@media (min-width: 1200px) {
+    .Footer {
+        margin-left: 200px;     /* This should be set to the width of the sidebar*/
+    }
+}

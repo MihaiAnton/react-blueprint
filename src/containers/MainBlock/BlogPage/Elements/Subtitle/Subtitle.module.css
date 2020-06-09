@@ -1,0 +1,21 @@
+.Subtitle {
+    /*background-color: #61dafb;*/
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Subtitle h4 {
+    padding-left: 100px;
+    text-align: left;
+    color: dimgray;
+    margin:0;
+    font-size: 24px;
+}
+
+
+@media (max-width: 1100px) {
+    .Subtitle {
+        width: 73%;
+    }
+}

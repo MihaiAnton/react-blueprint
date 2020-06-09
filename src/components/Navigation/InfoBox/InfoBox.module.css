@@ -1,0 +1,39 @@
+.InfoBox {
+    width: 100%;
+    height:  fit-content;
+    display: flex;
+    flex-direction: column;
+    /*background-color: red;*/
+}
+
+.InfoBox p{
+    margin: 2px;
+}
+
+.InfoBox h1 {
+    margin: 2px
+}
+
+.InfoBox h2 {
+    margin: 2px
+}
+
+.InfoBox h3 {
+    margin: 2px
+}
+
+.InfoBox h4 {
+    margin: 2px
+}
+
+.InfoBox h5 {
+    margin: 2px
+}
+
+.InfoBox h6 {
+    margin: 2px
+}
+
+.InfoBox img{
+    height: 16px;
+}

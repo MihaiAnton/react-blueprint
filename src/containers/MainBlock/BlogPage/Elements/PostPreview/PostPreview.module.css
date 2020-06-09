@@ -1,0 +1,41 @@
+.PostPreview {
+
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+
+
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+
+    box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.26);
+}
+
+.PostPreview:hover{
+    background-color: #dedede;
+}
+
+.ImageBox {
+    height: 320px;
+    overflow: hidden;
+}
+
+.PostPreview img{
+    width: 100%;
+}
+
+.Link {
+    text-decoration: none;
+    text-underline: none;
+    color: #282c34;
+}
+
+@media (max-width: 1100px) {
+    .PostPreview {
+        width: 73%;
+    }
+}

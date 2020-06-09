@@ -1,0 +1,12 @@
+.BlogPage {
+    width: 100%;
+    /*background-color: salmon;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,67 @@
+.DocsWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.DocsContainer {
+
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+
+    /*background-color: cadetblue;*/
+}
+
+.DocsContainer h1{
+    margin-left: 100px;
+    text-align: left;
+}
+
+.DocsContainer h2{
+    padding-top: 100px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.DocsContainer h4{
+    margin-left: 50px;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+.DocsContainer p{
+    text-indent: 40px;
+    text-align: justify;
+}
+
+
+.ExplanationBox{
+    background-color: #E0E0E0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ConfigDocBox{
+
+}
+
+.MacroName{
+    margin-top: 32px;
+}
+
+.DefaultConf{
+    color: royalblue;
+}
+
+.InlineBox{
+    margin: -10px;
+    display: flex;
+    flex-direction: row;
+    /*background-color: blue;*/
+}
