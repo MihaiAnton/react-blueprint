@@ -10,9 +10,15 @@ import SectionBreak from "./Elements/SectionBreak/SectionBreak";
 import PostPreview from "./Elements/PostPreview/PostPreview";
 
 import blogPosts from "../../../userInput/BlogPosts/BlogPosts";
+import {WEBSITE_NAME} from "../../../constants";
 
 class BlogPage extends Component {
-    /* Everuthing here is rendered from userInput/BlogPosts/BlogPosts*/
+    /* Everything here is rendered from userInput/BlogPosts/BlogPosts*/
+
+    componentDidMount() {
+        document.title = 'Blog | ' + WEBSITE_NAME;
+    }
+
     getPostPreviews() {
 
         let postsPreviews = [];

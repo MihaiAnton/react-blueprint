@@ -9,11 +9,11 @@ import classes from "./MainBlock.module.css"
 import BlogPage from "./BlogPage/BlogPage";
 
 import blogPosts from "../../userInput/BlogPosts/BlogPosts"
-import NotFoundPage from "../../assets/images/NotFoundPage";
+import NotFoundPage from "./NotFoundPage/NotFoundPage";
+import {WEBSITE_NAME} from "../../constants";
 
 
 class MainBlock extends Component{
-
 
 
 
