@@ -15,6 +15,10 @@ const DemoPost = {
             content: "Some subtitle",
         },
         {
+            type: "postinfo",
+            content: "10 May 2020 · 5 minute read"
+        },
+        {
             type: "text",
             content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum urna est, a vulputate arcu vulputate varius. Integer in pretium lorem. Fusce sed scelerisque felis. Nam magna orci, mollis eget suscipit vel, molestie id libero. Nulla in dui vulputate, condimentum nulla nec, congue sem. Quisque justo nisi, volutpat non velit in, aliquam placerat risus. Morbi auctor mauris id interdum laoreet."
         },

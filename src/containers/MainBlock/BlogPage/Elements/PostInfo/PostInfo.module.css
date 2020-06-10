@@ -1,0 +1,19 @@
+.PostInfo {
+    /*background-color: #61dafb;*/
+    width: 800px;
+}
+
+.PostInfo h6 {
+    padding-left: 100px;
+    text-align: left;
+    color: dimgray;
+    margin:0;
+    font-size: 14px;
+}
+
+
+@media (max-width: 1100px) {
+    .PostInfo {
+        width: 73%;
+    }
+}
