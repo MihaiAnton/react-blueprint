@@ -11,6 +11,7 @@ import PostPreview from "./Elements/PostPreview/PostPreview";
 
 import blogPosts from "../../../userInput/BlogPosts/BlogPosts";
 import {WEBSITE_NAME} from "../../../constants";
+import List from "./Elements/List/List";
 
 class BlogPage extends Component {
     /* Everything here is rendered from userInput/BlogPosts/BlogPosts*/
@@ -64,6 +65,13 @@ class BlogPage extends Component {
             else if (item.type === "sectionbreak") {
                 post.push(<SectionBreak/>);
             }
+            else if (item.type === "numberedlist") {
+                post.push(<List numbered content={item.content}/>);
+            }
+            else if (item.type === "list") {
+                post.push(<List content={item.content}/>);
+            }
+
 
         }
 

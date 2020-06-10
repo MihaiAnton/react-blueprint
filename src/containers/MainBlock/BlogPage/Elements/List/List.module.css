@@ -1,0 +1,28 @@
+.List {
+    /*background-color: #61dafb;*/
+    width: 800px;
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+    text-align: left;
+
+}
+
+.List ul li{
+    /*margin-top: 4px;*/
+    /*margin-bottom: 4px;*/
+    font-size: 14px;
+}
+
+.List li p{
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 1100px) {
+    .List {
+        width: 73%;
+    }
+}

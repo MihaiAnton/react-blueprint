@@ -27,6 +27,10 @@ const DemoPost = {
             content:"Praesent sagittis feugiat tellus, eget malesuada leo fringilla vitae. Donec vestibulum condimentum purus, quis rhoncus nulla condimentum eget. Nam sit amet tellus justo. Nullam tristique eu urna vitae sagittis. Curabitur dolor sapien, venenatis vel posuere sed, auctor sodales sem. Maecenas quis mollis lorem, a sagittis lorem. Morbi cursus, ex at egestas porttitor, metus urna posuere mauris, at lobortis lacus erat sit amet nibh. Donec volutpat quis dolor ut malesuada. Vivamus pharetra et erat et volutpat."
         },
         {
+            type:"list",
+            content:["List item 1","List item 2","List item 3"]
+        },
+        {
             type: "text",
             content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia id sapien eget tincidunt. Vivamus elementum mi urna, ac feugiat nunc sollicitudin eu. Morbi in semper ligula. Quisque vel lorem commodo, venenatis neque in, finibus sapien. Quisque placerat odio id ipsum venenatis, sed condimentum libero tempus. Sed tempus nisl eget justo venenatis cursus. Maecenas eleifend, nisl nec euismod bibendum, purus nisl vestibulum orci, non lacinia eros nibh id ante. Morbi quis ultrices lectus. Nunc mi eros, luctus sed tortor a, facilisis vestibulum metus. Aenean gravida turpis ac mauris condimentum, eu auctor velit ornare. Etiam quis mi quam."
         },
